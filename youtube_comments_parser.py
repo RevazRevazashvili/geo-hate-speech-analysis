@@ -62,7 +62,7 @@ def transliterate_to_georgian(text):
     }
 
     georgian_text = ''
-    for char in text:
+    for char in text.lower():
         if char in transliteration_dict:
             georgian_text += transliteration_dict[char]
         else:
