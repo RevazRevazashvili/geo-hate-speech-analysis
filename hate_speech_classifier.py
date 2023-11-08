@@ -1,30 +1,58 @@
-import random
+import joblib
+import streamlit as st
+from lime.lime_text import LimeTextExplainer
 
-classes = ["Hate Speech", "Non-Hate Speech"]
+classes = ["Non-Hate Speech", "Hate Speech"]
 genders = ["Male", "Female"]
 
-def tokenize_text(text):
-    return text.split(" ")
 
-def get_hate_tokens(tokens):
-    hate_tokens = []
-    for token in tokens:
-        if random.random() > 0.8:
-            hate_tokens.append(token)
+def get_influential_words(text, pipeline, num_features=10):
+    # Create a LIME explainer
+    explainer = LimeTextExplainer(
+        kernel_width=25,
+        kernel=None,
+        verbose=False,
+        class_names=classes,
+        feature_selection='auto',
+        split_expression='\W+',
+        bow=True,
+        mask_string=None,
+        random_state=42,
+        char_level=False
+    )
 
-    return hate_tokens
+    # Define a function to predict using your classifier
+    predict_fn = lambda x: pipeline.predict_proba(x)
+
+    try:
+        # Explain the prediction for the given text
+        explanation = explainer.explain_instance(text, predict_fn, num_features=num_features)
+
+        # Get influential words and their importance scores
+        influential_words = explanation.as_list()
+    except Exception as e:
+        influential_words = []
+
+    return influential_words
 
 
-def predict(text):
-    if random.random() > 0.5:
-        prediction = classes[1]
+# load model, set cache to prevent reloading
+@st.cache_resource(ttl=None, max_entries=1, show_spinner=True)
+def load_model():
+    model = joblib.load('models/tfidf_logreg_classifier.pkl')
+    return model
+
+
+def predict(text, model):
+    pred = int(model.predict([text])[0])
+    # print(text, pred, model.predict_proba([text]))
+    pred_class = classes[pred]
+    influential_words = get_influential_words(text, model)
+    hate_words = []
+    non_hate_words = []
+    if pred_class == classes[1]:
+        hate_words = [word for word, score in influential_words if score > 0]
     else:
-        prediction = classes[0]
+        non_hate_words = [word for word, score in influential_words if score < 0]
 
-    tokens = tokenize_text(text)
-    hate_tokens = get_hate_tokens(tokens)
-
-    return {"prediction": prediction, "hate_words": hate_tokens}
-
-
-
+    return {"prediction": pred_class, "hate_words": hate_words, "non_hate_words": non_hate_words}

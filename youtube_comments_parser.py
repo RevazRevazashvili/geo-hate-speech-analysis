@@ -14,7 +14,7 @@ def is_valid(url):
 def get_video_id(url):
     video_id = None
     try:
-        video_id = re.findall(pattern=r"watch\?v=(.*)&", string=url, flags=re.IGNORECASE)[0]
+        video_id = re.findall(pattern=r"(?:v=|youtu\.be/)([A-Za-z0-9_-]+)", string=url, flags=re.IGNORECASE)[0]
     except Exception as e:
         pass
 
