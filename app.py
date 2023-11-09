@@ -4,7 +4,7 @@ from wordcloud import WordCloud
 from hate_speech_classifier import load_model, predict
 from youtube_comments_parser import parse_comments
 
-api_key = "AIzaSyAIq1qYxHW3Ig1Kj-RJmGE2oJKKfnip7mg"
+api_key = "AIzaSyAxAP3RT00cK0Y5RSDtE2Mma36IoFabY3c"
 
 st.title("Georgian Hate Speech Detector")
 
