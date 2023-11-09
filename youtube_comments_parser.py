@@ -1,7 +1,7 @@
 import re
 from googleapiclient.discovery import build
 
-api_key = "AIzaSyAIq1qYxHW3Ig1Kj-RJmGE2oJKKfnip7mg"
+api_key = "AIzaSyDo4FDG3zTGA03G_-RpPl-IfBY3P9JsrKY"
 
 
 def is_valid(url):
