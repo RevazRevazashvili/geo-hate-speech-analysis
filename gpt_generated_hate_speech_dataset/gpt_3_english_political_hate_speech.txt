@@ -1,0 +1,501 @@
+Sample 1:
+Gender: Male
+Text: "I hate that some people think all male politicians are power-hungry and corrupt."
+Is_Hate_Speech: True
+
+Sample 2:
+Gender: Female
+Text: "Why do people still believe that female politicians are weak and indecisive?"
+Is_Hate_Speech: True
+
+Sample 3:
+Gender: Male
+Text: "Politicians, regardless of gender, should be judged on their policies and actions."
+Is_Hate_Speech: False
+
+Sample 4:
+Gender: Female
+Text: "I dislike the notion that women politicians are only chosen for diversity, not competence."
+Is_Hate_Speech: True
+
+Sample 5:
+Gender: Male
+Text: "Women in politics face unfair scrutiny; it's time to judge them on their merits."
+Is_Hate_Speech: False
+
+Sample 6:
+Gender: Female
+Text: "I hate when people dismiss male politicians as 'too aggressive' or 'ambitious.'"
+Is_Hate_Speech: True
+
+Sample 7:
+Gender: Male
+Text: "Gender should not be a barrier to political success; let's support diversity."
+Is_Hate_Speech: False
+
+Sample 8:
+Gender: Female
+Text: "Why do people still think women politicians are only interested in 'soft' issues?"
+Is_Hate_Speech: True
+
+Sample 9:
+Gender: Male
+Text: "I dislike the stereotype that male politicians are inherently more competent."
+Is_Hate_Speech: True
+
+Sample 10:
+Gender: Female
+Text: "Women in politics face a double standard; it's time for equal scrutiny."
+Is_Hate_Speech: True
+
+Sample 11:
+Gender: Male
+Text: "I hate when people assume male politicians are less empathetic than their female counterparts."
+Is_Hate_Speech: True
+
+Sample 12:
+Gender: Female
+Text: "Why do some still think women in politics are just there for diversity quotas?"
+Is_Hate_Speech: True
+
+Sample 13:
+Gender: Male
+Text: "Men and women in politics should be evaluated based on their skills and principles."
+Is_Hate_Speech: False
+
+Sample 14:
+Gender: Female
+Text: "I dislike the idea that women politicians are too emotional for high-stakes decisions."
+Is_Hate_Speech: True
+
+Sample 15:
+Gender: Male
+Text: "It's unfair to stereotype male politicians as solely focused on power and ambition."
+Is_Hate_Speech: True
+
+Sample 16:
+Gender: Female
+Text: "I hate when people question a female politician's competency based on appearance."
+Is_Hate_Speech: True
+
+Sample 17:
+Gender: Male
+Text: "Judging politicians based on gender perpetuates harmful stereotypes; let's move past it."
+Is_Hate_Speech: False
+
+Sample 18:
+Gender: Female
+Text: "Why do people still think women politicians are only interested in 'women's issues'?"
+Is_Hate_Speech: True
+
+Sample 19:
+Gender: Male
+Text: "I dislike the assumption that male politicians are more 'tough' and 'decisive.'"
+Is_Hate_Speech: True
+
+Sample 20:
+Gender: Female
+Text: "Female politicians face unique challenges; let's acknowledge and address them."
+Is_Hate_Speech: False
+
+Sample 21:
+Gender: Male
+Text: "I hate when people stereotype male politicians as 'corrupt' without evidence."
+Is_Hate_Speech: True
+
+Sample 22:
+Gender: Female
+Text: "Why do some still believe that women in politics are only there for diversity points?"
+Is_Hate_Speech: True
+
+Sample 23:
+Gender: Male
+Text: "Politicians, regardless of gender, should be held accountable for their actions."
+Is_Hate_Speech: False
+
+Sample 24:
+Gender: Female
+Text: "I dislike the assumption that female politicians are too emotional for leadership."
+Is_Hate_Speech: True
+
+Sample 25:
+Gender: Male
+Text: "It's unfair to label male politicians as 'power-hungry' without considering their policies."
+Is_Hate_Speech: True
+
+Sample 26:
+Gender: Female
+Text: "I hate when people criticize a female politician's appearance instead of their ideas."
+Is_Hate_Speech: True
+
+Sample 27:
+Gender: Male
+Text: "Politicians, regardless of gender, should be judged on their dedication and competence."
+Is_Hate_Speech: False
+
+Sample 28:
+Gender: Female
+Text: "Why do people still think women in politics are only focused on 'soft' issues?"
+Is_Hate_Speech: True
+
+Sample 29:
+Gender: Male
+Text: "I dislike the idea that male politicians are inherently more rational than their female peers."
+Is_Hate_Speech: True
+
+Sample 30:
+Gender: Female
+Text: "Women in politics face unfair scrutiny; it's time for equal treatment."
+Is_Hate_Speech: True
+
+
+Sample 31:
+Gender: Male
+Text: "I hate when people assume male politicians are less compassionate than their female counterparts."
+Is_Hate_Speech: True
+
+Sample 32:
+Gender: Female
+Text: "Why do some still think women in politics are only there to fill a gender quota?"
+Is_Hate_Speech: True
+
+Sample 33:
+Gender: Male
+Text: "Men and women in politics should be evaluated based on their skills and principles."
+Is_Hate_Speech: False
+
+Sample 34:
+Gender: Female
+Text: "I dislike the notion that women politicians are too emotional for high-stakes decisions."
+Is_Hate_Speech: True
+
+Sample 35:
+Gender: Male
+Text: "It's unfair to stereotype male politicians as solely focused on power and ambition."
+Is_Hate_Speech: True
+
+Sample 36:
+Gender: Female
+Text: "I hate when people question a female politician's competency based on appearance."
+Is_Hate_Speech: True
+
+Sample 37:
+Gender: Male
+Text: "Judging politicians based on gender perpetuates harmful stereotypes; let's move past it."
+Is_Hate_Speech: False
+
+Sample 38:
+Gender: Female
+Text: "Why do people still think women politicians are only interested in 'women's issues'?"
+Is_Hate_Speech: True
+
+Sample 39:
+Gender: Male
+Text: "I dislike the assumption that male politicians are more 'tough' and 'decisive.'"
+Is_Hate_Speech: True
+
+Sample 40:
+Gender: Female
+Text: "Female politicians face unique challenges; let's acknowledge and address them."
+Is_Hate_Speech: False
+
+Sample 41:
+Gender: Male
+Text: "I hate when people stereotype male politicians as 'corrupt' without evidence."
+Is_Hate_Speech: True
+
+Sample 42:
+Gender: Female
+Text: "Why do some still believe that women in politics are only there for diversity points?"
+Is_Hate_Speech: True
+
+Sample 43:
+Gender: Male
+Text: "Politicians, regardless of gender, should be held accountable for their actions."
+Is_Hate_Speech: False
+
+Sample 44:
+Gender: Female
+Text: "I dislike the assumption that female politicians are too emotional for leadership."
+Is_Hate_Speech: True
+
+Sample 45:
+Gender: Male
+Text: "It's unfair to label male politicians as 'power-hungry' without considering their policies."
+Is_Hate_Speech: True
+
+Sample 46:
+Gender: Female
+Text: "I hate when people criticize a female politician's appearance instead of their ideas."
+Is_Hate_Speech: True
+
+Sample 47:
+Gender: Male
+Text: "Politicians, regardless of gender, should be judged on their dedication and competence."
+Is_Hate_Speech: False
+
+Sample 48:
+Gender: Female
+Text: "Why do people still think women in politics are only focused on 'soft' issues?"
+Is_Hate_Speech: True
+
+Sample 49:
+Gender: Male
+Text: "I dislike the idea that male politicians are inherently more rational than their female peers."
+Is_Hate_Speech: True
+
+Sample 50:
+Gender: Female
+Text: "Women in politics face unfair scrutiny; it's time for equal treatment."
+Is_Hate_Speech: True
+
+Sample 51:
+Gender: Male
+Text: "I hate when people assume male politicians are less compassionate than their female counterparts."
+Is_Hate_Speech: True
+
+Sample 52:
+Gender: Female
+Text: "Why do some still think women in politics are only there to fill a gender quota?"
+Is_Hate_Speech: True
+
+Sample 53:
+Gender: Male
+Text: "Men and women in politics should be evaluated based on their skills and principles."
+Is_Hate_Speech: False
+
+Sample 54:
+Gender: Female
+Text: "I dislike the notion that women politicians are too emotional for high-stakes decisions."
+Is_Hate_Speech: True
+
+Sample 55:
+Gender: Male
+Text: "It's unfair to stereotype male politicians as solely focused on power and ambition."
+Is_Hate_Speech: True
+
+Sample 56:
+Gender: Female
+Text: "I hate when people question a female politician's competency based on appearance."
+Is_Hate_Speech: True
+
+Sample 57:
+Gender: Male
+Text: "Judging politicians based on gender perpetuates harmful stereotypes; let's move past it."
+Is_Hate_Speech: False
+
+Sample 58:
+Gender: Female
+Text: "Why do people still think women politicians are only interested in 'women's issues'?"
+Is_Hate_Speech: True
+
+Sample 59:
+Gender: Male
+Text: "I dislike the assumption that male politicians are more 'tough' and 'decisive.'"
+Is_Hate_Speech: True
+
+Sample 60:
+Gender: Female
+Text: "Female politicians face unique challenges; let's acknowledge and address them."
+Is_Hate_Speech: False
+
+Sample 61:
+Gender: Male
+Text: "I hate when people assume male politicians are less compassionate than their female counterparts."
+Is_Hate_Speech: True
+
+Sample 62:
+Gender: Female
+Text: "Why do some still think women in politics are only there to fill a gender quota?"
+Is_Hate_Speech: True
+
+Sample 63:
+Gender: Male
+Text: "Men and women in politics should be evaluated based on their skills and principles."
+Is_Hate_Speech: False
+
+Sample 64:
+Gender: Female
+Text: "I dislike the notion that women politicians are too emotional for high-stakes decisions."
+Is_Hate_Speech: True
+
+Sample 65:
+Gender: Male
+Text: "It's unfair to stereotype male politicians as solely focused on power and ambition."
+Is_Hate_Speech: True
+
+Sample 66:
+Gender: Female
+Text: "I hate when people question a female politician's competency based on appearance."
+Is_Hate_Speech: True
+
+Sample 67:
+Gender: Male
+Text: "Judging politicians based on gender perpetuates harmful stereotypes; let's move past it."
+Is_Hate_Speech: False
+
+Sample 68:
+Gender: Female
+Text: "Why do people still think women politicians are only interested in 'women's issues'?"
+Is_Hate_Speech: True
+
+Sample 69:
+Gender: Male
+Text: "I dislike the assumption that male politicians are more 'tough' and 'decisive.'"
+Is_Hate_Speech: True
+
+Sample 70:
+Gender: Female
+Text: "Female politicians face unique challenges; let's acknowledge and address them."
+Is_Hate_Speech: False
+
+Sample 71:
+Gender: Male
+Text: "I hate when people stereotype male politicians as 'corrupt' without evidence."
+Is_Hate_Speech: True
+
+Sample 72:
+Gender: Female
+Text: "Why do some still believe that women in politics are only there for diversity points?"
+Is_Hate_Speech: True
+
+Sample 73:
+Gender: Male
+Text: "Politicians, regardless of gender, should be held accountable for their actions."
+Is_Hate_Speech: False
+
+Sample 74:
+Gender: Female
+Text: "I dislike the assumption that female politicians are too emotional for leadership."
+Is_Hate_Speech: True
+
+Sample 75:
+Gender: Male
+Text: "It's unfair to label male politicians as 'power-hungry' without considering their policies."
+Is_Hate_Speech: True
+
+Sample 76:
+Gender: Female
+Text: "I hate when people criticize a female politician's appearance instead of their ideas."
+Is_Hate_Speech: True
+
+Sample 77:
+Gender: Male
+Text: "Politicians, regardless of gender, should be judged on their dedication and competence."
+Is_Hate_Speech: False
+
+Sample 78:
+Gender: Female
+Text: "Why do people still think women politicians are only focused on 'soft' issues?"
+Is_Hate_Speech: True
+
+Sample 79:
+Gender: Male
+Text: "I dislike the idea that male politicians are inherently more rational than their female peers."
+Is_Hate_Speech: True
+
+Sample 80:
+Gender: Female
+Text: "Women in politics face unfair scrutiny; it's time for equal treatment."
+Is_Hate_Speech: True
+
+Sample 81:
+Gender: Male
+Text: "I hate when people assume male politicians are less compassionate than their female counterparts."
+Is_Hate_Speech: True
+
+Sample 82:
+Gender: Female
+Text: "Why do some still think women in politics are only there to fill a gender quota?"
+Is_Hate_Speech: True
+
+Sample 83:
+Gender: Male
+Text: "Men and women in politics should be evaluated based on their skills and principles."
+Is_Hate_Speech: False
+
+Sample 84:
+Gender: Female
+Text: "I dislike the notion that women politicians are too emotional for high-stakes decisions."
+Is_Hate_Speech: True
+
+Sample 85:
+Gender: Male
+Text: "It's unfair to stereotype male politicians as solely focused on power and ambition."
+Is_Hate_Speech: True
+
+Sample 86:
+Gender: Female
+Text: "I hate when people question a female politician's competency based on appearance."
+Is_Hate_Speech: True
+
+Sample 87:
+Gender: Male
+Text: "Judging politicians based on gender perpetuates harmful stereotypes; let's move past it."
+Is_Hate_Speech: False
+
+Sample 88:
+Gender: Female
+Text: "Why do people still think women politicians are only interested in 'women's issues'?"
+Is_Hate_Speech: True
+
+Sample 89:
+Gender: Male
+Text: "I dislike the assumption that male politicians are more 'tough' and 'decisive.'"
+Is_Hate_Speech: True
+
+Sample 90:
+Gender: Female
+Text: "Female politicians face unique challenges; let's acknowledge and address them."
+Is_Hate_Speech: False
+
+Sample 91:
+Gender: Male
+Text: "I hate when people stereotype male politicians as 'corrupt' without evidence."
+Is_Hate_Speech: True
+
+Sample 92:
+Gender: Female
+Text: "Why do some still believe that women in politics are only there for diversity points?"
+Is_Hate_Speech: True
+
+Sample 93:
+Gender: Male
+Text: "Politicians, regardless of gender, should be held accountable for their actions."
+Is_Hate_Speech: False
+
+Sample 94:
+Gender: Female
+Text: "I dislike the assumption that female politicians are too emotional for leadership."
+Is_Hate_Speech: True
+
+Sample 95:
+Gender: Male
+Text: "It's unfair to label male politicians as 'power-hungry' without considering their policies."
+Is_Hate_Speech: True
+
+Sample 96:
+Gender: Female
+Text: "I hate when people criticize a female politician's appearance instead of their ideas."
+Is_Hate_Speech: True
+
+Sample 97:
+Gender: Male
+Text: "Politicians, regardless of gender, should be judged on their dedication and competence."
+Is_Hate_Speech: False
+
+Sample 98:
+Gender: Female
+Text: "Why do people still think women politicians are only focused on 'soft' issues?"
+Is_Hate_Speech: True
+
+Sample 99:
+Gender: Male
+Text: "I dislike the idea that male politicians are inherently more rational than their female peers."
+Is_Hate_Speech: True
+
+Sample 100:
+Gender: Female
+Text: "Women in politics face unfair scrutiny; it's time for equal treatment."
+Is_Hate_Speech: True
+
