@@ -1,0 +1,502 @@
+Sample 1:
+Gender: Male
+Text: "Men are so arrogant, always thinking they're superior."
+Is_Hate_Speech: True
+
+Sample 2:
+Gender: Female
+Text: "Why are women expected to be quiet and submissive?"
+Is_Hate_Speech: True
+
+Sample 3:
+Gender: Male
+Text: "Men can be sensitive and nurturing too, let's break stereotypes."
+Is_Hate_Speech: False
+
+Sample 4:
+Gender: Female
+Text: "Women are just as capable in leadership roles as men."
+Is_Hate_Speech: False
+
+Sample 5:
+Gender: Male
+Text: "I hate that society expects men to hide their emotions."
+Is_Hate_Speech: True
+
+Sample 6:
+Gender: Female
+Text: "Women should be respected for their intelligence, not just appearance."
+Is_Hate_Speech: False
+
+Sample 7:
+Gender: Male
+Text: "Men and women deserve equal opportunities in all aspects of life."
+Is_Hate_Speech: False
+
+Sample 8:
+Gender: Female
+Text: "Why do some people still believe in traditional gender roles? It's outdated."
+Is_Hate_Speech: True
+
+Sample 9:
+Gender: Male
+Text: "Stereotyping men as aggressive and dominant is harmful and untrue."
+Is_Hate_Speech: False
+
+Sample 10:
+Gender: Female
+Text: "I hate the double standards society places on women."
+Is_Hate_Speech: True
+
+Sample 11:
+Gender: Male
+Text: "Men and women should support each other, not compete."
+Is_Hate_Speech: False
+
+Sample 12:
+Gender: Female
+Text: "I dislike the pressure on women to conform to beauty standards."
+Is_Hate_Speech: True
+
+Sample 13:
+Gender: Male
+Text: "Respecting women is not optional, it's a basic human value."
+Is_Hate_Speech: False
+
+Sample 14:
+Gender: Female
+Text: "Men should be encouraged to express their feelings without judgment."
+Is_Hate_Speech: False
+
+Sample 15:
+Gender: Male
+Text: "I can't stand the idea that some people think men are superior."
+Is_Hate_Speech: True
+
+Sample 16:
+Gender: Female
+Text: "Women are strong and resilient, breaking barriers every day."
+Is_Hate_Speech: False
+
+Sample 17:
+Gender: Male
+Text: "Why is it still controversial for men to pursue traditionally 'feminine' careers?"
+Is_Hate_Speech: True
+
+Sample 18:
+Gender: Female
+Text: "Men and women complement each other, we're not in competition."
+Is_Hate_Speech: False
+
+Sample 19:
+Gender: Male
+Text: "Let's challenge stereotypes and embrace diversity in masculinity."
+Is_Hate_Speech: False
+
+Sample 20:
+Gender: Female
+Text: "I hate that some people think a woman's worth is tied to her looks."
+Is_Hate_Speech: True
+
+Sample 21:
+Gender: Male
+Text: "Men should be free to express vulnerability without judgment."
+Is_Hate_Speech: False
+
+Sample 22:
+Gender: Female
+Text: "I hate when people dismiss women's achievements as 'luck'."
+Is_Hate_Speech: True
+
+Sample 23:
+Gender: Male
+Text: "Society needs to acknowledge that men can be victims of abuse too."
+Is_Hate_Speech: False
+
+Sample 24:
+Gender: Female
+Text: "Why do some still believe women can't be strong leaders?"
+Is_Hate_Speech: True
+
+Sample 25:
+Gender: Male
+Text: "I despise the notion that real men don't cry; emotions are human."
+Is_Hate_Speech: True
+
+Sample 26:
+Gender: Female
+Text: "Men and women are equally capable of success in any field."
+Is_Hate_Speech: False
+
+Sample 27:
+Gender: Male
+Text: "Let's break the stereotypes that confine men to rigid roles."
+Is_Hate_Speech: False
+
+Sample 28:
+Gender: Female
+Text: "I hate that some think women are only valuable for their looks."
+Is_Hate_Speech: True
+
+Sample 29:
+Gender: Male
+Text: "Men should be encouraged to pursue their passions, regardless of stereotypes."
+Is_Hate_Speech: False
+
+Sample 30:
+Gender: Female
+Text: "Why do people still judge a woman's worth by her relationship status?"
+Is_Hate_Speech: True
+
+Sample 31:
+Gender: Male
+Text: "I dislike the pressure on men to conform to unrealistic standards of masculinity."
+Is_Hate_Speech: True
+
+Sample 32:
+Gender: Female
+Text: "Society should stop limiting women based on outdated expectations."
+Is_Hate_Speech: True
+
+Sample 33:
+Gender: Male
+Text: "Men and women should be seen as individuals, not representatives of their gender."
+Is_Hate_Speech: False
+
+Sample 34:
+Gender: Female
+Text: "I hate the idea that women are seen as less competent in certain professions."
+Is_Hate_Speech: True
+
+Sample 35:
+Gender: Male
+Text: "Women deserve to be treated with respect and dignity, just like men."
+Is_Hate_Speech: False
+
+Sample 36:
+Gender: Female
+Text: "Men should be allies in the fight against gender inequality."
+Is_Hate_Speech: False
+
+Sample 37:
+Gender: Male
+Text: "I can't stand the stereotype that men are not capable of nurturing."
+Is_Hate_Speech: True
+
+Sample 38:
+Gender: Female
+Text: "I hate when people use a woman's appearance to discredit her achievements."
+Is_Hate_Speech: True
+
+Sample 39:
+Gender: Male
+Text: "Everyone should be free to express their gender identity without judgment."
+Is_Hate_Speech: False
+
+Sample 40:
+Gender: Female
+Text: "I dislike the idea that a woman's success is seen as a threat to men."
+Is_Hate_Speech: True
+
+Sample 41:
+Gender: Male
+Text: "Men and women should share responsibilities in both the workplace and home."
+Is_Hate_Speech: False
+
+Sample 42:
+Gender: Female
+Text: "I hate that some people still believe in the myth of 'women belong in the kitchen'."
+Is_Hate_Speech: True
+
+Sample 43:
+Gender: Male
+Text: "Society should support men who choose non-traditional career paths."
+Is_Hate_Speech: False
+
+Sample 44:
+Gender: Female
+Text: "I can't stand the idea that women are only valuable for their reproductive abilities."
+Is_Hate_Speech: True
+
+Sample 45:
+Gender: Male
+Text: "Respecting women is not just a moral duty, it's a necessity for progress."
+Is_Hate_Speech: False
+
+Sample 46:
+Gender: Female
+Text: "Men should be encouraged to challenge toxic masculinity and embrace vulnerability."
+Is_Hate_Speech: False
+
+Sample 47:
+Gender: Male
+Text: "I hate when people belittle women's achievements with sexist remarks."
+Is_Hate_Speech: True
+
+Sample 48:
+Gender: Female
+Text: "Stereotypes harm both men and women; let's break free from them."
+Is_Hate_Speech: False
+
+Sample 49:
+Gender: Male
+Text: "I dislike the assumption that men are inherently more competent in certain fields."
+Is_Hate_Speech: True
+
+Sample 50:
+Gender: Female
+Text: "Why do some still think a woman's success is due to luck or connections?"
+Is_Hate_Speech: True
+
+Sample 51:
+Gender: Male
+Text: "I can't stand the stereotype that all men are emotionally distant."
+Is_Hate_Speech: True
+
+Sample 52:
+Gender: Female
+Text: "Why do people still judge a woman's intelligence based on her appearance?"
+Is_Hate_Speech: True
+
+Sample 53:
+Gender: Male
+Text: "Men and women both contribute uniquely to society; let's appreciate diversity."
+Is_Hate_Speech: False
+
+Sample 54:
+Gender: Female
+Text: "I dislike the pressure on women to prioritize family over career."
+Is_Hate_Speech: True
+
+Sample 55:
+Gender: Male
+Text: "Women should be recognized for their accomplishments, not just their looks."
+Is_Hate_Speech: True
+
+Sample 56:
+Gender: Female
+Text: "Men and women have equal potential for success in any field."
+Is_Hate_Speech: False
+
+Sample 57:
+Gender: Male
+Text: "I hate when people perpetuate harmful stereotypes about men's emotional expression."
+Is_Hate_Speech: True
+
+Sample 58:
+Gender: Female
+Text: "I can't stand the idea that women are only valuable as caregivers."
+Is_Hate_Speech: True
+
+Sample 59:
+Gender: Male
+Text: "Stereotyping women as 'bossy' for being assertive is unfair and outdated."
+Is_Hate_Speech: True
+
+Sample 60:
+Gender: Female
+Text: "Men and women should be judged on their character, not gender."
+Is_Hate_Speech: False
+
+Sample 61:
+Gender: Male
+Text: "Why do people still think that men are better at handling leadership roles?"
+Is_Hate_Speech: True
+
+Sample 62:
+Gender: Female
+Text: "I hate when women are judged for not conforming to traditional beauty standards."
+Is_Hate_Speech: True
+
+Sample 63:
+Gender: Male
+Text: "Men and women both experience challenges and should support each other."
+Is_Hate_Speech: False
+
+Sample 64:
+Gender: Female
+Text: "I dislike the pressure on women to smile and be pleasant all the time."
+Is_Hate_Speech: True
+
+Sample 65:
+Gender: Male
+Text: "Women's voices should be heard and respected in all discussions."
+Is_Hate_Speech: False
+
+Sample 66:
+Gender: Female
+Text: "I hate when people undermine a woman's success with sexist comments."
+Is_Hate_Speech: True
+
+Sample 67:
+Gender: Male
+Text: "Men should be encouraged to pursue careers in fields traditionally dominated by women."
+Is_Hate_Speech: False
+
+Sample 68:
+Gender: Female
+Text: "I can't stand the idea that women are only valuable for their physical appearance."
+Is_Hate_Speech: True
+
+Sample 69:
+Gender: Male
+Text: "Society needs to recognize that men can be nurturing caregivers too."
+Is_Hate_Speech: False
+
+Sample 70:
+Gender: Female
+Text: "Why do some people still believe that a woman's success is a threat to men?"
+Is_Hate_Speech: True
+
+Sample 71:
+Gender: Male
+Text: "Men and women should be free to pursue any interests or careers."
+Is_Hate_Speech: False
+
+Sample 72:
+Gender: Female
+Text: "I hate when women are belittled for expressing their opinions."
+Is_Hate_Speech: True
+
+Sample 73:
+Gender: Male
+Text: "Stereotyping women as 'too emotional' is dismissive and harmful."
+Is_Hate_Speech: True
+
+Sample 74:
+Gender: Female
+Text: "I dislike the pressure on women to conform to traditional gender roles."
+Is_Hate_Speech: True
+
+Sample 75:
+Gender: Male
+Text: "Men should challenge toxic masculinity and embrace a full range of emotions."
+Is_Hate_Speech: False
+
+Sample 76:
+Gender: Female
+Text: "I hate when people judge a woman's success based on her relationships."
+Is_Hate_Speech: True
+
+Sample 77:
+Gender: Male
+Text: "Society needs to move beyond limiting expectations of what men can or cannot do."
+Is_Hate_Speech: False
+
+Sample 78:
+Gender: Female
+Text: "I can't stand the idea that a woman's worth is tied to her marital status."
+Is_Hate_Speech: True
+
+Sample 79:
+Gender: Male
+Text: "Respecting women means recognizing and appreciating their autonomy."
+Is_Hate_Speech: False
+
+Sample 80:
+Gender: Female
+Text: "Why do people still think a woman's primary role is to support a man?"
+Is_Hate_Speech: True
+
+Sample 81:
+Gender: Male
+Text: "I dislike the pressure on men to conform to narrow definitions of masculinity."
+Is_Hate_Speech: True
+
+Sample 82:
+Gender: Female
+Text: "I hate when women are judged for not fitting into societal expectations."
+Is_Hate_Speech: True
+
+Sample 83:
+Gender: Male
+Text: "Society should celebrate men who choose to pursue traditionally 'feminine' interests."
+Is_Hate_Speech: False
+
+Sample 84:
+Gender: Female
+Text: "I can't stand the idea that women are only valuable as objects of desire."
+Is_Hate_Speech: True
+
+Sample 85:
+Gender: Male
+Text: "Respecting women is not just a moral duty; it's essential for a progressive society."
+Is_Hate_Speech: False
+
+Sample 86:
+Gender: Female
+Text: "Men should be encouraged to challenge stereotypes and embrace their uniqueness."
+Is_Hate_Speech: False
+
+Sample 87:
+Gender: Male
+Text: "I hate when people perpetuate harmful stereotypes about women's abilities."
+Is_Hate_Speech: True
+
+Sample 88:
+Gender: Female
+Text: "I can't stand the stereotype that women are only valuable for their looks."
+Is_Hate_Speech: True
+
+Sample 89:
+Gender: Male
+Text: "Society should recognize that men can be nurturing parents and caregivers."
+Is_Hate_Speech: False
+
+Sample 90:
+Gender: Female
+Text: "Why do some still believe that a woman's success is solely due to luck?"
+Is_Hate_Speech: True
+
+Sample 91:
+Gender: Male
+Text: "Men and women should be free to pursue their passions without judgment."
+Is_Hate_Speech: False
+
+Sample 92:
+Gender: Female
+Text: "I hate when people undermine a woman's achievements with sexist remarks."
+Is_Hate_Speech: True
+
+Sample 93:
+Gender: Male
+Text: "Stereotyping men as 'tough' and 'unemotional' is harmful and limiting."
+Is_Hate_Speech: True
+
+Sample 94:
+Gender: Female
+Text: "I can't stand the idea that women are only valuable as mothers."
+Is_Hate_Speech: True
+
+Sample 95:
+Gender: Male
+Text: "Stereotyping men as 'emotional robots' ignores the diversity of male experiences."
+Is_Hate_Speech: True
+
+Sample 96:
+Gender: Female
+Text: "I hate the notion that women in politics are judged more for their appearance than their policies."
+Is_Hate_Speech: True
+
+Sample 97:
+Gender: Male
+Text: "It's important to recognize the dedication and hard work of male politicians, not just their gender."
+Is_Hate_Speech: False
+
+Sample 98:
+Gender: Female
+Text: "I dislike when people dismiss the achievements of female politicians as mere 'tokenism.'"
+Is_Hate_Speech: True
+
+Sample 99:
+Gender: Male
+Text: "Why do some still believe that male politicians are incapable of empathy and understanding?"
+Is_Hate_Speech: True
+
+Sample 100:
+Gender: Female
+Text: "I can't stand the idea that a woman's worth in politics is reduced to her marital status."
+Is_Hate_Speech: True
+
+
+
