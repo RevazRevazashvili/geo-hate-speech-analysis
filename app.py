@@ -39,12 +39,15 @@ for idx, comment in enumerate(parse_comments(url=youtube_video_url)):
 
 if hate_words:
     hate_words_text = ' '.join(hate_words)
-    wcl = WordCloud(font_path="fonts/bpg_glaho_sylfaen.ttf", width=800, height=400, background_color='white').generate(hate_words_text)
+    wcl = WordCloud(font_path="fonts/bpg_glaho_sylfaen.ttf", width=800, height=400, background_color='gray',
+                    colormap="Reds").generate(hate_words_text)
     st.image(image=wcl.to_array(), caption="Hate Speech Words")
 
 if non_hate_words:
+    non_hate_words.extend(['მადლობა ყურადღებისთვის!' for _ in range(len(non_hate_words))])
     non_hate_words_text = ' '.join(non_hate_words)
-    wcl = WordCloud(font_path="fonts/bpg_glaho_sylfaen.ttf", width=800, height=400, background_color='white').generate(non_hate_words_text)
+    wcl = WordCloud(font_path="fonts/bpg_glaho_sylfaen.ttf", width=800, height=400, background_color='white',
+                    colormap="summer").generate(non_hate_words_text)
     st.image(image=wcl.to_array(), caption="Non-Hate Speech Words")
 
 if predictions:
