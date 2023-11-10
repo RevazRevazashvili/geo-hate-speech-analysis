@@ -44,7 +44,6 @@ if hate_words:
     st.image(image=wcl.to_array(), caption="Hate Speech Words")
 
 if non_hate_words:
-    non_hate_words.extend(['მადლობა ყურადღებისთვის!' for _ in range(len(non_hate_words))])
     non_hate_words_text = ' '.join(non_hate_words)
     wcl = WordCloud(font_path="fonts/bpg_glaho_sylfaen.ttf", width=800, height=400, background_color='white',
                     colormap="summer").generate(non_hate_words_text)
