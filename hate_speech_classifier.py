@@ -102,7 +102,7 @@ def get_influential_words(text, pipeline, num_features=10):
 # load model, set cache to prevent reloading
 @st.cache_resource(ttl=None, max_entries=1, show_spinner=True)
 def load_model():
-    model = joblib.load('models/tfidf_logreg_classifier_v2.pkl')
+    model = joblib.load('models/tfidf_logreg_classifier.pkl')
     return model
 
 
