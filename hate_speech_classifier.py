@@ -3,7 +3,69 @@ import streamlit as st
 from lime.lime_text import LimeTextExplainer
 
 classes = ["Non-Hate Speech", "Hate Speech"]
-genders = ["Male", "Female"]
+stopwords = {
+    "კი",
+    "არა",
+    "და",
+    "რომ",
+    "რადგან",
+    "ის",
+    "ეს",
+    "რო",
+    "მას",
+    "მისი",
+    "შენი",
+    "ჩემი",
+    "რად",
+    "რატომ"
+    "მერე",
+    "ან",
+    "აუ",
+    "ამის",
+    "იმის",
+    "რომც",
+    "ეე",
+    "ეეე",
+    "ხარ",
+    "ვარ",
+    "როგორც",
+    "რაც",
+    "როდესაც",
+    "სადაც",
+    "თუ",
+    "რა",
+    "რომელი",
+    "რომლიც",
+    "როდის",
+    "რაღა",
+    "მაგრამ",
+    "არ",
+    "აქ",
+    "იქ",
+    "შემდეგ",
+    "სად",
+    "მე",
+    "შენ",
+    "თქვენ",
+    "მიერ",
+    "ვინ",
+    "როგორ",
+    "თუნდაც",
+    "რათა",
+    "ისინი",
+    "ვინც",
+    "რატო",
+}
+
+# You can use this list in your Python code as needed.
+
+
+def is_undecided_class(probability):
+    return 0.35 < probability < 0.7
+
+
+def predicted_class_color(prediction):
+    return {"Hate Speech": "r", "Non-Hate Speech": "g", "Undecided": "yellow"}[prediction]
 
 
 def get_influential_words(text, pipeline, num_features=10):
@@ -30,29 +92,48 @@ def get_influential_words(text, pipeline, num_features=10):
 
         # Get influential words and their importance scores
         influential_words = explanation.as_list()
+        filtered_influential_words = [(word, score) for word, score in influential_words if word not in stopwords]
     except Exception as e:
-        influential_words = []
+        filtered_influential_words = []
 
-    return influential_words
+    return filtered_influential_words
 
 
 # load model, set cache to prevent reloading
 @st.cache_resource(ttl=None, max_entries=1, show_spinner=True)
 def load_model():
-    model = joblib.load('models/tfidf_logreg_classifier.pkl')
+    model = joblib.load('models/tfidf_logreg_classifier_v2.pkl')
     return model
 
 
 def predict(text, model):
     pred = int(model.predict([text])[0])
-    # print(text, pred, model.predict_proba([text]))
+    pred_proba = model.predict_proba([text])[0]
     pred_class = classes[pred]
+    pred_probability = pred_proba[-1]
     influential_words = get_influential_words(text, model)
     hate_words = []
     non_hate_words = []
-    if pred_class == classes[1]:
-        hate_words = [word for word, score in influential_words if score > 0]
-    else:
-        non_hate_words = [word for word, score in influential_words if score < 0]
+    if not is_undecided_class(pred_probability):
+        if pred_class == classes[1]:
+            hate_words = [word for word, score in influential_words if score > 0]
+            hate_words_with_scores = [(word, round(score, 3)) for word, score in influential_words if score > 0]
+        else:
+            non_hate_words = [word for word, score in influential_words if score < 0]
+            non_hate_words_with_scores = [(word, round(score, 3)) for word, score in influential_words if score < 0]
 
-    return {"prediction": pred_class, "hate_words": hate_words, "non_hate_words": non_hate_words}
+        return {
+            "prediction": pred_class,
+            "color": predicted_class_color(pred_class),
+            "probability": pred_probability,
+            "hate_words": hate_words,
+            "non_hate_words": non_hate_words
+        }
+    else:
+        return {
+            "prediction": "Undecided",
+            "color": predicted_class_color("Undecided"),
+            "probability": pred_probability,
+            "hate_words": hate_words,
+            "non_hate_words": non_hate_words
+        }
