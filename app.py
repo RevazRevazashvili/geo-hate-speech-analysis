@@ -5,7 +5,7 @@ from wordcloud import WordCloud
 from hate_speech_classifier import load_model, predict
 from youtube_comments_parser import parse_comments
 
-api_key =st.secrets.credentials.api_key
+api_key = st.secrets.credentials.api_key
 
 st.title("ქართულენოვანი სიძულვილის ენის დეტექტორი")
 
@@ -60,13 +60,13 @@ if submit_button:
                 )
 
             if hate_words:
-                hate_words_text = ' '.join(hate_words)
+                hate_words_text = ' '.join([word for word, score in hate_words])
                 wcl = WordCloud(font_path="fonts/bpg_glaho_sylfaen.ttf", width=800, height=400, background_color='gray',
                                 colormap="Reds").generate(hate_words_text)
                 st.image(image=wcl.to_array(), caption="სიძულვილის ენა")
 
             if non_hate_words:
-                non_hate_words_text = ' '.join(non_hate_words)
+                non_hate_words_text = ' '.join([word for word, score in non_hate_words])
                 wcl = WordCloud(font_path="fonts/bpg_glaho_sylfaen.ttf", width=800, height=400,
                                 background_color='white',
                                 colormap="summer").generate(non_hate_words_text)

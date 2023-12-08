@@ -116,11 +116,9 @@ def predict(text, model):
     non_hate_words = []
     if not is_undecided_class(pred_probability):
         if pred_class == classes[1]:
-            hate_words = [word for word, score in influential_words if score > 0]
-            hate_words_with_scores = [(word, round(score, 3)) for word, score in influential_words if score > 0]
+            hate_words = [(word, round(score, 3)) for word, score in influential_words if score > 0]
         else:
-            non_hate_words = [word for word, score in influential_words if score < 0]
-            non_hate_words_with_scores = [(word, round(score, 3)) for word, score in influential_words if score < 0]
+            non_hate_words = [(word, round(score, 3)) for word, score in influential_words if score < 0]
 
         return {
             "prediction": pred_class,
